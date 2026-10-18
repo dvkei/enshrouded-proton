@@ -5,6 +5,7 @@
 FROM        debian:trixie-slim
 
 LABEL       author="Torsten Widmann" maintainer="info@goover.de"
+LABEL       org.opencontainers.image.source="https://github.com/dvkei/enshrouded-proton"
 
 ARG         PROTON_VERSION=GE-Proton11-9
 
